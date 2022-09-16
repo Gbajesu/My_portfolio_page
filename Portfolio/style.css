@@ -7,11 +7,12 @@
     --button-color:#ffffef;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
    /* font-family: 'Roboto Mono', monospace; */
-font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
 }
 
 
@@ -43,8 +44,16 @@ li{
 .director{
     background-color: var(--main-bg-color);
 }
+.dir-img{
+background-image: url(/img/img4.jpg); 
+width: 200px;
+height: 200px;
+background-position: center;
+background-size: cover;
+position: relative;
+}
 .imgs .col{
-    width: 300;
+    width: 300px;
     height: 300px; 
     margin: .4em;
 }
