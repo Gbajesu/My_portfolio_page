@@ -37,3 +37,54 @@ li{
 .my-name{
     background-color: var(--main-bg-color);
 }
+.ready{
+    background-color: var(--main-bg-color);
+}
+.director{
+    background-color: var(--main-bg-color);
+}
+.imgs .col{
+    width: 300;
+    height: 300px; 
+    margin: .4em;
+}
+
+.img-1 {
+    background: url(/img/img9.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-2 {
+    background: url(/img/img10.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-3 {
+    background: url(/img/img11.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-4 {
+    background: url(/img/img12.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service {
+list-style: none;
+color: var(--font-color);
+}
+.service:hover{
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+ 
