@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Shippori+Antique&display=swap'); */
+:root{
+    --main-bg-color:#f2f4f3;
+    --main-bg-color2:#fff;
+    --font-color:#040303;
+    --button-bg-color: #1a1d22;
+    --button-color:#ffffef;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+   /* font-family: 'Roboto Mono', monospace; */
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-nav li{
+    font-size: large;
+}
+button{
+    color: var(--button-color);
+    background-color: var(--button-bg-color);
+}
+.contain-1{
+    background-color: var(--main-bg-color);
+    margin-top: 0;
+}
+/* .img1{
+ height: 100vh;
+ width: 50%;
+background: url(/img/img1.jpg);
+} */
+li{
+    list-style: none;
+}
+.my-name{
+    background-color: var(--main-bg-color);
+}
